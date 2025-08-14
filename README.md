@@ -155,7 +155,3 @@ A simple LED 16*64 dot clock has RTC date & time, temperature, and sync with net
 9. 1 * LDO 5V to 3.3V Voltage Level Converter
 10. 3.3 to 5v IO voltage level converter (using mosFET)
 11. 1 * Reset button
-
-```
-
-```
