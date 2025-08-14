@@ -70,10 +70,10 @@ A simple LED 16*64 dot clock has RTC date & time, temperature, and sync with net
 
 | PIN | FUNCTION   | Connection    | PIN | FUNCTION | Connection   |
 | --- | ---------- | ------------- | --- | -------- | ------------ |
-| 1   | `GND`    |               | 16  | `A`    |              |
-| 2   | `GND`    |               | 15  | `B`    |              |
-| 3   | `GND`    |               | 14  | `C`    |              |
-| 4   | `EN`     | `GPIO_4`    | 13  | `D`    |              |
+| 1   | `GND`    |               | 16  | `A`    | `GPIO_16` |
+| 2   | `GND`    |               | 15  | `B`    | `GPIO_17` |
+| 3   | `GND`    |               | 14  | `C`    | `GPIO_32` |
+| 4   | `EN`     | `GPIO_4`    | 13  | `D`    | `GPIO_33` |
 | 5   | `RED_DS` | `HSPI_MOSI` | 12  | `(NC)` |              |
 | 6   | `(NC)`   |               | 11  | `(NC)` |              |
 | 7   | `GND`    |               | 10  | `LT`   | `GPIO_27`  |
@@ -95,10 +95,10 @@ A simple LED 16*64 dot clock has RTC date & time, temperature, and sync with net
 |   2 | `3V3`  |               |
 |   3 | `SCK`  | `VSPI_SCK`  |
 |   4 | `MOSI` | `VSPI_MOSI` |
-|   5 | `RES`  |               |
-|   6 | `DC`   |               |
-|   7 | `CS`   |               |
-|   8 | `BLK`  |               |
+|   5 | `RES`  | `GPIO_12` |
+|   6 | `DC`   | `GPIO_27` |
+|   7 | `CS`   | `GPIO_14` |
+|   8 | `BLK`  | `GPIO_13` |
 
 6. SPI SD card connector (optional)
    `2.54 * 1 * 6`
@@ -133,6 +133,16 @@ A simple LED 16*64 dot clock has RTC date & time, temperature, and sync with net
 |   3 | `DIN`  | `HSPI_SCK` |
 |   4 | `CS`   | `GPIO_4`   |
 |   5 | `CLK`  | `HSPI_CLK` |
+
+9. WS2812 Connector (header)
+
+|  PIN | FUNCTION | Connection |
+| ---: | -------- | ---------- |
+|    1 | `GND`    |            |
+|    2 | `VCC`    |            |
+|    3 | `DATA`   | `GPIO_15`  |
+
+
 
 ## Components
 
