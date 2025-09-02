@@ -70,14 +70,14 @@ A simple LED 16*64 dot clock has RTC date & time, temperature, and sync with net
 
 | PIN | FUNCTION   | Connection    | PIN | FUNCTION | Connection   |
 | --- | ---------- | ------------- | --- | -------- | ------------ |
-| 1   | `GND`    |               | 16  | `A`    | `GPIO_16`  |
-| 2   | `GND`    |               | 15  | `B`    | `GPIO_17`  |
-| 3   | `GND`    |               | 14  | `C`    | `GPIO_32`  |
-| 4   | `EN`     | `GPIO_4`    | 13  | `D`    | `GPIO_33`  |
-| 5   | `RED_DS` | `HSPI_MOSI` | 12  | `(NC)` |              |
-| 6   | `(NC)`   |               | 11  | `(NC)` |              |
-| 7   | `GND`    |               | 10  | `LT`   | `GPIO_27`  |
-| 8   | `GND`    |               | 9   | `SCK`  | `HSPI_SCK` |
+| 1   | `GND`    |               | 2   | `A`    | `GPIO_16`  |
+| 3   | `GND`    |               | 4   | `B`    | `GPIO_17`  |
+| 5   | `GND`    |               | 6   | `C`    | `GPIO_32`  |
+| 7   | `EN`     | `GPIO_4`    | 8   | `D`    | `GPIO_33`  |
+| 9   | `RED_DS` | `HSPI_MOSI` | 10  | `(NC)` |              |
+| 11  | `(NC)`   |               | 12  | `(NC)` |              |
+| 13  | `GND`    |               | 14  | `LT`   | `GPIO_27`  |
+| 15  | `GND`    |               | 16  | `SCK`  | `HSPI_SCK` |
 
 `POWER SUPPLY`
 
